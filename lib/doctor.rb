@@ -22,6 +22,6 @@ class Doctor
 
   
   def patients 
-    patient.all.map {|patient| patient.doctor == self}
+    patient.all.map {|patient| patient.doctor}
   end
 end 
